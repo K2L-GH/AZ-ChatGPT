@@ -550,12 +550,12 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src="../../assets/WandaLogo215px.png"
+                                    src="https://k2law.com.au/wp-content/uploads/2024/03/Wanda_emblem.png"
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Start chatting test edit</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>Welcome to WandaGPT</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured by K2 Law</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
